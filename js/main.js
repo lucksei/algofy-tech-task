@@ -65,7 +65,6 @@ function toggleMenu() {
 
 function jumpAnchor(anchor) {
   var node = document.getElementById(anchor);
-  //   console.log(node);
   node.scrollIntoView({ behavior: "smooth" }, true);
 
   //   window.scrollTo({
@@ -76,17 +75,20 @@ function jumpAnchor(anchor) {
   //   window.location.href = anchor;
 }
 
-// function toggleExpand(expanded) {
-//   const node = document.createElement("p");
-//   if (expanded) {
-//     node.innerText = aboutShort;
-//   } else {
-//     node.innerText = aboutLong;
-//   }
-//   aboutText.replaceChildren(node);
-//   console.log(node);
-//   console.log(aboutText);
-// }
+function toggleExpand(expanded) {
+  const span = expandBtn.querySelector("span");
+  const icon = expandBtn.querySelector("i");
+
+  span.innerText = expanded ? "More" : "Less";
+  icon.classList.toggle("fa-plus");
+  icon.classList.toggle("fa-minus");
+
+  if (expanded) {
+    aboutText.innerText = aboutShort;
+  } else {
+    aboutText.innerText = aboutLong;
+  }
+}
 
 // query selector helper
 
@@ -103,6 +105,7 @@ function qs(selector) {
 // the text about me
 
 const aboutLong =
-  "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+  "Hello, my name is Luca Seimandi, im a 26 years old Telecomunication Engineer, and lately i've been looking to get into the field of Software Development and DevOps. I have very diverse passions and hobbies, i enjoy keeping up with new tecnologies and learning new skills every day, both in the professional field, and also in my personal life. I enjoy challenges and solving problems, I like to think that being able to divide a difficult task into pieces and tackling each one is a pretty rewarding experience, and so was this challenge.";
 
-const aboutShort = "";
+const aboutShort =
+  "Hello, my name is Luca Seimandi, im a 26 years old Telecomunication Engineer, and lately i've been looking to get into the field of Software Development and DevOps. I have …";
