@@ -1,4 +1,4 @@
-// import { Liquid } from "liquidjs";
+// import { Liquid } from "./liquidjs";
 const engine = new liquidjs.Liquid(); // imports liquidjs engine mannually since firefox gives an error "MIME"
 const result = document.querySelector("#project_container"); // selects where to insert the new html body
 
