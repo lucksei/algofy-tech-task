@@ -1,16 +1,39 @@
 {
-  "name": "liquid",
-  "text": "some text",
-  "products": {
+  "projects": {
     "item1": {
-      "name": "socks",
-      "text": "some text",
-      "link": "some link"
+      "image_url": "/img/project_chess.png",
+      "Image_alt": "Chess Game Screenshot",
+      "project_name": "Simple Java Chess Game",
+      "text": "A very simple two-player chess game built using the libGDX game development framework. I made the project to specifically hone my skills with OOP",
+      "link": "https://github.com/lucksei/Chess-game"
     },
     "item2": {
-      "name": "sandals",
-      "text": "some text",
-      "link": "some link"
+      "image_url": "",
+      "Image_alt": "",
+      "project_name": "",
+      "text": "",
+      "link": ""
+    },
+    "item3": {
+      "image_url": "/img/project_pricing_card.png",
+      "Image_alt": "Webpage Screenshot",
+      "project_name": "Frontend Mentor Pricing Card Challenge",
+      "text": "This is a small CSS challenge from Frontend Mentor I took to improve my skills before completing this task.",
+      "link": "https://github.com/lucksei/pricing-card-frontend-mentor-challenge/tree/gh-pages"
+    },
+    "item4": {
+      "image_url": "/img/project_testimonial.png",
+      "Image_alt": "Webpage Screenshot",
+      "project_name": "Frontend Mentor Testimonials Challenge",
+      "text": "This is another small CSS challenge from Frontend Mentor I took to improve my skills before completing this task.",
+      "link": "https://github.com/lucksei/testimonials-grid-section-challenge/tree/gh-pages"
+    },
+    "item5": {
+      "image_url": "/img/project_algofy.png",
+      "Image_alt": "Algofy logo",
+      "project_name": "Algofy Technical Task",
+      "text": "I'd like to include this as a project because it felt like a real accomplishment to develop everything from scratch while learning Liquid Templating at the same time.",
+      "link": "https://github.com/lucksei/algofy-tech-task"
     }
   }
 }

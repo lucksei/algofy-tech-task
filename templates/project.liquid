@@ -1,14 +1,12 @@
-<div class="project">
-  <div class="content-left">
-    <img src="./img/me.png" alt="Luca's Image" />
+{% for item in projects %}
+  <div class="project">
+    <div class="content-left">
+      <img src={{ projects[item[0]].image_url }} alt={{projects[item[0]].image_alt}} />
+    </div>
+    <div class="content-right">
+      <h3>{{ projects[item[0]].project_name }}</h3>
+      <p>{{ projects[item[0]].text }}</p>
+      <a href={{projects[item[0]].link}} target=”_blank”>Link to the project</a>
+    </div>
   </div>
-  <div class="content-right">
-    <h3>Project Name</h3>
-    <p>
-      Lorem ipsum es simplemente el texto de relleno de las imprentas y
-      archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-                        de las industrias desde el año 1500, cuando un impresor...
-    </p>
-    <a href="http://google.com">Link to the project</a>
-  </div>
-</div>
+{% endfor %}
