@@ -7,8 +7,10 @@ const homeBtn = qs("[data-id=home-btn]");
 const aboutBtn = qs("[data-id=about-btn]");
 const projectsBtn = qs("[data-id=projects-btn]");
 const contactBtn = qs("[data-id=contact-btn]");
+const expandBtn = qs("[data-id=expand-btn]");
 
 const dropdownMenu = qs("[data-id=dropdown]");
+const aboutText = qs("[data-id=about-text");
 
 // event listeners
 
@@ -48,6 +50,13 @@ contactBtn.addEventListener("click", (event) => {
   jumpAnchor("contact-section");
 });
 
+let expanded = false;
+expandBtn.addEventListener("click", (event) => {
+  toggleExpand(expanded);
+  expanded = expanded ? false : true;
+  //   console.log(expanded);
+});
+
 // functions
 
 function toggleMenu() {
@@ -67,6 +76,18 @@ function jumpAnchor(anchor) {
   //   window.location.href = anchor;
 }
 
+// function toggleExpand(expanded) {
+//   const node = document.createElement("p");
+//   if (expanded) {
+//     node.innerText = aboutShort;
+//   } else {
+//     node.innerText = aboutLong;
+//   }
+//   aboutText.replaceChildren(node);
+//   console.log(node);
+//   console.log(aboutText);
+// }
+
 // query selector helper
 
 function qs(selector) {
@@ -78,3 +99,10 @@ function qs(selector) {
     return el;
   }
 }
+
+// the text about me
+
+const aboutLong =
+  "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+
+const aboutShort = "";

@@ -200,11 +200,12 @@ button:hover {
 }
 
 .about-section .content-right {
-  align-items: center;
+  align-items: start;
   order: 1;
 }
 .about-section .content-left {
   align-items: start;
+  align-self: flex-start;
   order: 2;
 }
 
