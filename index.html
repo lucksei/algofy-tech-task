@@ -7,7 +7,7 @@
     <title>Algofy technical Task | Luca Seimandi</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- Font awesome icons -->
     <script
@@ -34,23 +34,23 @@
       </div>
       <div class="nav-links">
         <div class="mobile">
-          <button><i class="fa-solid fa-bars"></i></button>
-          <div class="dropdown">
-            <button href="#">Home</button>
-            <button href="#">About</button>
-            <button href="#">Projects</button>
-            <button href="#">Contact</button>
+          <button data-id="drop-btn"><i class="fa-solid fa-bars"></i></button>
+          <div class="dropdown hidden" data-id="dropdown">
+            <button data-id="drop-home-btn">Home</button>
+            <button data-id="drop-about-btn">About</button>
+            <button data-id="drop-projects-btn">Projects</button>
+            <button data-id="drop-contact-btn">Contact</button>
           </div>
         </div>
         <div class="desktop">
-          <button href="#">Home</button>
-          <button href="#">About</button>
-          <button href="#">Projects</button>
-          <button href="#">Contact</button>
+          <button data-id="home-btn">Home</button>
+          <button data-id="about-btn">About</button>
+          <button data-id="projects-btn">Projects</button>
+          <button data-id="contact-btn">Contact</button>
         </div>
       </div>
     </nav>
-    <div class="hero-section">
+    <div id="hero-section" class="hero-section">
       <div class="title-card">
         <h1>My Submission</h1>
         <h2>For the Web Dev. Intern Position</h2>
@@ -62,7 +62,7 @@
         las industrias desde el año 1500, cuando un impresor...
       </p>
     </div>
-    <div class="about-section">
+    <div id="about-section" class="about-section">
       <h2>About me</h2>
       <div class="content">
         <div class="content-left">
@@ -74,15 +74,15 @@
           <button>Expand<i class="fa-solid fa-plus"></i></button>
         </div>
         <div class="content-right">
-          <img src="./img/me.png" alt="Luca's Image" />
+          <img src="/img/me.png" alt="Luca's Image" />
         </div>
       </div>
     </div>
-    <div class="projects-section">
+    <div id="projects-section" class="projects-section">
       <h2>Projects</h2>
       <div id="project_container"></div>
     </div>
-    <div class="contact-section">
+    <div id="contact-section" class="contact-section">
       <div class="contact-info">
         <h2>Contact me</h2>
         <div class="form">
@@ -98,6 +98,7 @@
     </div>
 
     <!-- Javascript -->
-    <script type="module" src="./js/template-projects.js"></script>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/template-projects.js"></script>
   </body>
 </html>
