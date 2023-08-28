@@ -3,12 +3,12 @@ const engine = new liquidjs.Liquid(); // imports liquidjs engine mannually since
 const result = document.querySelector("#project_container"); // selects where to insert the new html body
 
 // fetch the .liquid template
-const template = await fetch("../templates/project.liquid").then((response) => {
+const template = await fetch("/templates/project.liquid").then((response) => {
   return response.text();
 });
 
 // fetch the .json project object
-const obj = await fetch("../json/projects.json").then((response) => {
+const obj = await fetch("/json/projects.json").then((response) => {
   return response.json();
 });
 
