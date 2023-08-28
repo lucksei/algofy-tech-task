@@ -1,35 +1,35 @@
 {
   "projects": {
     "item1": {
-      "image_url": "/img/project_chess.png",
+      "image_url": "https://lucksei.github.io/algofy-tech-task/img/project_chess.png",
       "Image_alt": "Chess Game Screenshot",
       "project_name": "Simple Java Chess Game",
       "text": "A very simple two-player chess game built using the libGDX game development framework. I made the project to specifically hone my skills with OOP",
       "link": "https://github.com/lucksei/Chess-game"
     },
     "item2": {
-      "image_url": "/img/project_react.png",
+      "image_url": "https://lucksei.github.io/algofy-tech-task/img/project_react.png",
       "Image_alt": "Tic Tac Toe Game",
       "project_name": "Tic-Tac-Toe Game React Refactor",
       "text": "A tutorial I followed, created by @zachgoll, where he takes a tic-tac-toe game, builds it in native JavaScript, and refactors it to TypeScript, and finally to React.",
       "link": "https://github.com/lucksei/live-react-refactor"
     },
     "item3": {
-      "image_url": "/img/project_pricing_card.png",
+      "image_url": "https://lucksei.github.io/algofy-tech-task/img/project_pricing_card.png",
       "Image_alt": "Webpage Screenshot",
       "project_name": "Frontend Mentor Pricing Card Challenge",
       "text": "This is a small CSS challenge from Frontend Mentor I took to improve my skills before completing this task.",
       "link": "https://github.com/lucksei/pricing-card-frontend-mentor-challenge/tree/gh-pages"
     },
     "item4": {
-      "image_url": "/img/project_testimonial.png",
+      "image_url": "https://lucksei.github.io/algofy-tech-task/img/project_testimonial.png",
       "Image_alt": "Webpage Screenshot",
       "project_name": "Frontend Mentor Testimonials Challenge",
       "text": "This is another small CSS challenge from Frontend Mentor I took to improve my skills before completing this task.",
       "link": "https://github.com/lucksei/testimonials-grid-section-challenge/tree/gh-pages"
     },
     "item5": {
-      "image_url": "/img/project_algofy.png",
+      "image_url": "https://lucksei.github.io/algofy-tech-task/img/project_algofy.png",
       "Image_alt": "Algofy logo",
       "project_name": "Algofy Technical Task",
       "text": "I'd like to include this project because it feels like a significant accomplishment. I developed everything from scratch, starting with the design phase and ending with a fully interactive and responsive webpage. Along the way, I also learned about Liquid Templating.",
