@@ -8,11 +8,11 @@
       "link": "https://github.com/lucksei/Chess-game"
     },
     "item2": {
-      "image_url": "",
-      "Image_alt": "",
-      "project_name": "",
-      "text": "",
-      "link": ""
+      "image_url": "/img/project_react.png",
+      "Image_alt": "Tic Tac Toe Game",
+      "project_name": "Tic-Tac-Toe Game React Refactor",
+      "text": "A tutorial I followed, created by @zachgoll, where he takes a tic-tac-toe game, builds it in native JavaScript, and refactors it to TypeScript, and finally to React.",
+      "link": "https://github.com/lucksei/live-react-refactor"
     },
     "item3": {
       "image_url": "/img/project_pricing_card.png",
@@ -32,7 +32,7 @@
       "image_url": "/img/project_algofy.png",
       "Image_alt": "Algofy logo",
       "project_name": "Algofy Technical Task",
-      "text": "I'd like to include this as a project because it felt like a real accomplishment to develop everything from scratch while learning Liquid Templating at the same time.",
+      "text": "I'd like to include this project because it feels like a significant accomplishment. I developed everything from scratch, starting with the design phase and ending with a fully interactive and responsive webpage. Along the way, I also learned about Liquid Templating.",
       "link": "https://github.com/lucksei/algofy-tech-task"
     }
   }
