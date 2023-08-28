@@ -1,0 +1,16 @@
+{
+  "name": "liquid",
+  "text": "some text",
+  "products": {
+    "item1": {
+      "name": "socks",
+      "text": "some text",
+      "link": "some link"
+    },
+    "item2": {
+      "name": "sandals",
+      "text": "some text",
+      "link": "some link"
+    }
+  }
+}
